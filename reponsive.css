@@ -1,0 +1,59 @@
+@media screen and (max-width:991px) {
+    #skill .container {
+        width: 100%;
+    }
+    #application .container .row .right {
+        display: none;
+    }
+    #product .container .row {
+        display: none;
+    }
+    #product .container .btn {
+        margin-top: 70px;
+    }
+    #slide.carousel {
+        display: block;
+    }
+    .blog-product-img img {
+        width: 90%;
+    }
+    #blog .container .thumbnail .caption {
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto 20px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid beige;
+    }
+    .navbar-nav .nav-item a.nav-link {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-text h1 {
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    #application .container .row .left .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    #application .container .row .left .content {
+        text-align: justify;
+        padding: 20px 0;
+    }
+    #application .container .row .left .btn {
+        background-color: #C7A17A;
+        margin-top: 10px;
+    }
+    #map .container .map-modal {
+        width: 90%;
+    }
+    footer .container .footer-right .list-inline {
+        text-align: center;
+    }
+}
